@@ -1,0 +1,32 @@
+###
+POST /exception/npe HTTP/1.1
+Accept: *
+Content-Type: application/json
+Host: localhost:8080
+
+{
+  "name": "song",
+  "age":  10
+}
+
+###
+POST /exception/iae HTTP/1.1
+Accept: *
+Content-Type: application/json
+Host: localhost:8080
+
+{
+  "name": "song",
+  "age":  15
+}
+
+###
+POST /exception/cce HTTP/1.1
+Accept: *
+Content-Type: application/json
+Host: localhost:8080
+
+{
+  "name": "song",
+  "age":  20
+}
